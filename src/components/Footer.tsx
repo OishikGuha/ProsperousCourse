@@ -9,7 +9,7 @@ const Footer = () => {
       </div>
       <div
         id="footerinfo"
-        className="p-4 mt-10 bg-[#020202] m-4 rounded-lg flex flex-col items-center"
+        className="p-4 mt-10 bg-[#020202] m-4 rounded-lg flex flex-col items-center "
       >
         <h1 className="text-white mb-3">Made by Oishik Guha aka Roboticol</h1>
         <a
