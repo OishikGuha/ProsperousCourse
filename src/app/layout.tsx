@@ -6,12 +6,6 @@ import NavBar from "../components/NavBar";
 import { useEffect } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
-
-export const metadata = {
-  title: "Prosperous Course",
-  description: "Learn how to be successful.",
-};
-
 export default function RootLayout({
   children,
 }: {
