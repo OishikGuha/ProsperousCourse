@@ -8,14 +8,14 @@ const Footer = () => {
         <CTACard />
       </div>
       <div
-        id="footerinfo"
+        id="contacts"
         className="p-4 mt-10 bg-[#020202] m-4 rounded-lg flex flex-col items-center "
       >
         <h1 className="text-white mb-3">Made by Oishik Guha aka Roboticol</h1>
         <a
           href="https://twitter.com/roboticolyt?ref_src=twsrc%5Etfw"
           data-show-count="false"
-          className=""
+          className="bg-[#1DA1F2] text-white p-1 rounded-full"
         >
           Follow @roboticolyt
         </a>

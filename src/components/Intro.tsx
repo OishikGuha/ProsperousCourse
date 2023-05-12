@@ -18,14 +18,14 @@ const Intro = () => {
         <img
           src="/cscatter.svg"
           alt=""
-          className="absolute translate-x-[100vh] object-cover"
+          className="absolute hidden translate-x-[0vh] translate-y-[-10vh] sm:translate-x-[100vh] object-cover"
         />
         <img
           src="/blob.svg"
           alt=""
           // width="100"
           // height="100"
-          className="absolute h-[82vh] translate-y-[-15vh]"
+          className="absolute sm:h-[82vh] h-[300vh] translate-y-[-15vh]"
         />
         <Tilt>
           <motion.div
@@ -54,7 +54,7 @@ const Intro = () => {
         </h2>
         <a
           className="bg-[#020202] p-4 mt-4 rounded-full border-[#532a7b] border-2 transition-all hover:border-[#532a7b] hover:border-3"
-          href="#buy"
+          href="#card"
         >
           <span className="text-white text-2xl">Buy Now</span>
         </a>

@@ -9,9 +9,11 @@ const NavBar = () => {
       <div className="">
         <ul className="flex flex-row space-x-4 text-xl mt-[5%] ">
           <li className="text-white">
-            <a href="#buy"> Buy</a>
+            <a href="#card"> Buy</a>
           </li>
-          <li className="text-white">Contact</li>
+          <li className="text-white">
+            <a href="#contacts">Contact</a>
+          </li>
         </ul>
       </div>
     </nav>

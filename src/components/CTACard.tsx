@@ -29,7 +29,9 @@ const CTACard = () => {
           </ol>
           <div id="buy" className="w-full">
             <button className="p-3 bg-[#121212] w-full mt-3 rounded-full self-center border-[#532a7b] border-2 shadow-sm shadow-[#532a7b] hover:shadow-md hover:shadow-[#532a7b] transition-all">
-              <span className="text-white">Buy Now!</span>
+              <a className="text-white" href="https://discord.gg/kAJkeNUUsG">
+                Buy Now!
+              </a>
             </button>
           </div>
         </div>
