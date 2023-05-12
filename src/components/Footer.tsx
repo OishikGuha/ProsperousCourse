@@ -22,11 +22,11 @@ const Footer = () => {
         <h1 className="text-white">Discord: Roboticol#4533</h1>
         <script async src="https://platform.twitter.com/widgets.js"></script>
       </div>
-      <div className="mt-[-300vh] md:mt-[-100vh] z-[-1]">
+      <div className="mt-[-30vh] sm:mt-[-50vh] lg:mt-[-100vh] z-[-1]">
         <img
           src="/layerwaves.svg"
           alt=""
-          className="w-full h-full object-contain"
+          className="w-full h-full object-cover"
         />
       </div>
     </div>
