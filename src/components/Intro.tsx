@@ -18,7 +18,7 @@ const Intro = () => {
         <img
           src="/cscatter.svg"
           alt=""
-          className="absolute hidden translate-x-[0vh] translate-y-[-10vh] sm:translate-x-[100vh] object-cover"
+          className="absolute translate-x-[0vh] translate-y-[-10vh] sm:translate-x-[100vh] object-cover"
         />
         <img
           src="/blob.svg"

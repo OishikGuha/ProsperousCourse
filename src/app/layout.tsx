@@ -4,6 +4,8 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 import NavBar from "../components/NavBar";
 import { useEffect } from "react";
+import { Suspense } from "react";
+import Loading from "../components/Loading";
 
 const inter = Inter({ subsets: ["latin"] });
 export default function RootLayout({
@@ -29,7 +31,9 @@ export default function RootLayout({
       <body
         className={inter.className + " bg-[#121212] w-full overflow-x-hidden "}
       >
-        <div className="">{children}</div>
+        <Suspense fallback={<Loading />}>
+          <div className="">{children}</div>
+        </Suspense>
       </body>
     </html>
   );

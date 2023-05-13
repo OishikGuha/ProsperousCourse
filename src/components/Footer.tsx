@@ -15,9 +15,11 @@ const Footer = () => {
         <a
           href="https://twitter.com/roboticolyt?ref_src=twsrc%5Etfw"
           data-show-count="false"
-          className="bg-[#1DA1F2] text-white p-1 rounded-full"
+          className=" mb-2"
         >
-          Follow @roboticolyt
+          <span className="bg-[#1DA1F2] text-white p-2 rounded-full">
+            Follow @roboticolyt
+          </span>
         </a>
         <h1 className="text-white">Discord: Roboticol#4533</h1>
         <script async src="https://platform.twitter.com/widgets.js"></script>
